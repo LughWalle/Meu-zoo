@@ -1,4 +1,3 @@
-// data.js
 const zooData = {
   animais: [
     {
@@ -1664,6 +1663,5 @@ const zooData = {
     nivelRuido: 35
   }
 };
-
 
 export default zooData;
