@@ -1,3 +1,4 @@
+// data.js
 const zooData = {
   animais: [
     {
@@ -1455,109 +1456,109 @@ const zooData = {
   conservacao: {
       projetos: [
         {
-          "id": "CP-090",
-          "nome": "Projeto Corredor Ecológico da Onça-pintada",
-          "especieId": "TJ-2024",
-          "parceiros": [
+          id: "CP-090",
+          nome: "Projeto Corredor Ecológico da Onça-pintada",
+          especieId: "TJ-2024",
+          parceiros: [
             {
-              "id": "P047",
-              "nome": "Wildlife Conservation Society",
-              "tipo": ["ONG Internacional"],
-              "papel": "Mapeamento genético",
-              "investimento": 420000
+              id: "P047",
+              nome: "Wildlife Conservation Society",
+              tipo: ["ONG Internacional"],
+              papel: "Mapeamento genético",
+              investimento: 420000
             },
             {
-              "id": "P048",
-              "nome": "Secretaria de Biodiversidade",
-              "tipo": ["Governamental"],
-              "papel": "Proteção de habitat",
-              "investimento": 180000
+              id: "P048",
+              nome: "Secretaria de Biodiversidade",
+              tipo: ["Governamental"],
+              papel: "Proteção de habitat",
+              investimento: 180000
             }
           ],
-          "periodo": {
-            "inicio": "2024-03-15",
-            "termino": "2027-05-30",
-            "faseAtual": 2
+          periodo: {
+            inicio: "2024-03-15",
+            termino: "2027-05-30",
+            faseAtual: 2
           },
-          "recursos": {
-            "financeiro": {
-              "total": 800000,
-              "utilizado": 310000,
-              "alocacao": {
-                "pesquisa": 35,
-                "campo": 50,
-                "educacao": 15
+          recursos: {
+            financeiro: {
+              total: 800000,
+              utilizado: 310000,
+              alocacao: {
+                pesquisa: 35,
+                campo: 50,
+                educacao: 15
               }
             },
-            "humanos": {
-              "pesquisadores": 9,
-              "tecnicos": 14,
-              "voluntarios": 28
+            humanos: {
+              pesquisadores: 9,
+              tecnicos: 14,
+              voluntarios: 28
             }
           },
-          "metricas": {
-            "reabilitados": 18,
-            "filhotesNascidos": 8,
-            "areaReabilitada": 1500,
-            "taxaSobrevivencia": 88.5
+          metricas: {
+            reabilitados: 18,
+            filhotesNascidos: 8,
+            areaReabilitada: 1500,
+            taxaSobrevivencia: 88.5
           },
-          "metodologia": {
-            "coletaDados": ["armadilhas fotográficas", "análise de DNA"],
-            "tecnicas": ["corredores de vegetação", "controle de caça"],
-            "monitoramento": "Sistema de câmeras inteligentes e drones"
+          metodologia: {
+            coletaDados: ["armadilhas fotográficas", "análise de DNA"],
+            tecnicas: ["corredores de vegetação", "controle de caça"],
+            monitoramento: "Sistema de câmeras inteligentes e drones"
           }
         },
         {
-          "id": "CP-091",
-          "nome": "Projeto Conservação de Peixes-boi Amazônicos",
-          "especieId": "MA-2022",
-          "parceiros": [
+          id: "CP-091",
+          nome: "Projeto Conservação de Peixes-boi Amazônicos",
+          especieId: "MA-2022",
+          parceiros: [
             {
-              "id": "P049",
-              "nome": "Fundação Amazônia Viva",
-              "tipo": ["ONG Nacional"],
-              "papel": "Resgate e reabilitação",
-              "investimento": 150000
+              id: "P049",
+              nome: "Fundação Amazônia Viva",
+              tipo: ["ONG Nacional"],
+              papel: "Resgate e reabilitação",
+              investimento: 150000
             },
             {
-              "id": "P050",
-              "nome": "Universidade Federal do Amazonas",
-              "tipo": ["Acadêmico"],
-              "papel": "Estudos comportamentais",
-              "investimento": 75000
+              id: "P050",
+              nome: "Universidade Federal do Amazonas",
+              tipo: ["Acadêmico"],
+              papel: "Estudos comportamentais",
+              investimento: 75000
             }
           ],
-          "periodo": {
-            "inicio": "2022-08-01",
-            "termino": "2025-11-20",
-            "faseAtual": 3
+          periodo: {
+            inicio: "2022-08-01",
+            termino: "2025-11-20",
+            faseAtual: 3
           },
-          "recursos": {
-            "financeiro": {
-              "total": 300000,
-              "utilizado": 275000,
-              "alocacao": {
-                "pesquisa": 30,
-                "campo": 60,
-                "educacao": 10
+          recursos: {
+            financeiro: {
+              total: 300000,
+              utilizado: 275000,
+              alocacao: {
+                pesquisa: 30,
+                campo: 60,
+                educacao: 10
               }
             },
-            "humanos": {
-              "pesquisadores": 6,
-              "tecnicos": 10,
-              "voluntarios": 45
+            humanos: {
+              pesquisadores: 6,
+              tecnicos: 10,
+              voluntarios: 45
             }
           },
-          "metricas": {
-            "reabilitados": 32,
-            "filhotesNascidos": 12,
-            "areaReabilitada": 800,
-            "taxaSobrevivencia": 95.0
+          metricas: {
+            reabilitados: 32,
+            filhotesNascidos: 12,
+            areaReabilitada: 800,
+            taxaSobrevivencia: 95.0
           },
-          "metodologia": {
-            "coletaDados": ["satélite", "entrevistas com comunidades"],
-            "tecnicas": ["sinalização aquática", "educação comunitária"],
-            "monitoramento": "Marcação por rádio-colares e relatórios mensais"
+          metodologia: {
+            coletaDados: ["satélite", "entrevistas com comunidades"],
+            tecnicas: ["sinalização aquática", "educação comunitária"],
+            monitoramento: "Marcação por rádio-colares e relatórios mensais"
           }
         }
       ],
